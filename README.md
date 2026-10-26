@@ -19,10 +19,28 @@ The application will use QR codes or Bluetooth beacons to identify the passenger
 
 ## Proposed Solution / Architecture Diagram
 
-
+The proposed solution is a multi-platform navigation system consisting of a mobile application, digital kiosks, a backend server, a station map database, and an administrator dashboard. Passengers can search for any facility and receive the shortest or most suitable route based on their needs.
 ## Use Cases
 
+1. Facility Search: Passengers can quickly locate ticket counters, platforms, restrooms, food courts, waiting rooms, enquiry counters, and exits.
 
+2. Indoor Navigation: The system provides step-by-step directions from the passenger’s current location to the selected destination.
+
+3. Accessible Navigation: Wheelchair users and passengers with mobility difficulties can choose routes that include ramps and lifts while avoiding stairs where possible.
+
+4. Voice-Guided Assistance: Visually impaired passengers can receive spoken directions and audio instructions to navigate station premises more independently.
+
+5. QR Code-Based Location Detection: Passengers can scan QR codes placed at station entrances, corridors, and other important locations to identify their current position.
+
+6. Digital Kiosk Navigation: Passengers without smartphones can use touchscreen kiosks to search for facilities and view directions.
+
+7. Route Change Notifications: The system can notify passengers about blocked corridors, closed facilities, and updated routes when current information is available.
+
+8. Nearest Facility Detection: Passengers can find the nearest restroom, drinking water point, lift, food outlet, or other facility based on their detected location.
+
+9. Railway Administrator Management: Authorized railway staff can update station maps, facility details, accessible pathways, and temporary restrictions.
+
+10. Multilingual Support: Passengers can select their preferred language for search, text instructions, and voice guidance.
 ## Technology Stack
 
 
