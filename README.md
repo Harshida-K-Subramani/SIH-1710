@@ -42,6 +42,33 @@ The proposed solution is a multi-platform navigation system consisting of a mobi
 
 10. Multilingual Support: Passengers can select their preferred language for search, text instructions, and voice guidance.
 ## Technology Stack
-
+| Layer              | Technology                              |
+| ------------------ | --------------------------------------- |
+| Mobile App         | **Flutter / React Native**              |
+| Web/Kiosk UI       | **React.js**                            |
+| 3D Maps            | **Three.js / Unity**                    |
+| Backend            | **Node.js + Express.js**                |
+| Database           | **PostgreSQL + PostGIS**                |
+| Real-Time Data     | **WebSocket / MQTT**                    |
+| Navigation         | **A* / Dijkstra Algorithm**             |
+| Indoor Positioning | **BLE + Wi-Fi + QR**                    |
+| Authentication     | **JWT / OAuth**                         |
+| Maps/Data          | **OpenStreetMap + Custom Station Maps** |
+| Cloud              | **AWS / Azure / Firebase**              |
+| Voice              | **Text-to-Speech API**                  |
+| Notifications      | **Firebase Cloud Messaging**            |
+| Admin Panel        | **React.js**                            |
+| API Communication  | **REST API**                            |
 
 ## Dependencies
+1. Railway Station Map Data: Accurate floor plans, entrances, platforms, staircases, lifts, corridors, and exits are required to build the navigation network.
+
+2. Facility Information: The system needs updated information about ticket counters, restrooms, food courts, waiting areas, drinking water points, and other passenger facilities.
+
+3. Indoor Location Technology: QR codes, Bluetooth beacons, or other suitable positioning technologies are needed to determine the passenger’s approximate location inside the station.
+
+4. Internet Connectivity: An internet connection may be required to retrieve updated maps, synchronize facility data, and deliver live notifications. Basic offline maps can be provided for essential navigation.
+
+5. Backend Server: A server is needed to process passenger requests, calculate routes, manage station information, and communicate with the mobile application and kiosks.
+
+6. Database Management: A database is required to store station layouts, facility locations, navigation paths, accessibility details, and route restrictions.
