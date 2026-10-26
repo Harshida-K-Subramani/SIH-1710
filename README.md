@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 26.10.2026
+## Register Number: 212224040108
+## Name: HARSHIDA K S 
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,7 +11,11 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
+Railway Smart Navigator – An Intelligent Indoor Navigation System for Railway Stations
 
+The idea is to develop a smart, user-friendly navigation system that helps passengers easily locate facilities and destinations inside railway stations. The system will provide interactive station maps, real-time route guidance, and step-by-step directions to platforms, ticket counters, restrooms, food courts, waiting halls, enquiry counters, lifts, and exits.
+
+The application will use QR codes or Bluetooth beacons to identify the passenger’s indoor location, since GPS may not work accurately inside large railway stations. Voice-guided navigation will assist visually impaired passengers, while accessible route options will help elderly people and passengers with disabilities. A digital kiosk interface will also be provided for passengers who do not have smartphones.
 
 ## Proposed Solution / Architecture Diagram
 
